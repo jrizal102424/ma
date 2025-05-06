@@ -22,7 +22,7 @@
 			"Identity Provider"
 		]
 	},
-	"sorting": 1,
+	"sorting": 2,
 	"layout": {
 		"layout": "side",
 		"aggregateFunction": "sum",
@@ -135,6 +135,28 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1543.003",
+			"tactic": "persistence",
+			"score": 20,
+			"color": "",
+			"comment": "UENP005\nUENP006",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1543.003",
+			"tactic": "privilege-escalation",
+			"score": 20,
+			"color": "",
+			"comment": "UENP005\nUENP006",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1578",
 			"tactic": "defense-evasion",
 			"color": "",
@@ -195,6 +217,28 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1547.001",
+			"tactic": "persistence",
+			"score": 10,
+			"color": "",
+			"comment": "UENP003",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1547.001",
+			"tactic": "privilege-escalation",
+			"score": 10,
+			"color": "",
+			"comment": "UENP003",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1600",
 			"tactic": "defense-evasion",
 			"color": "",
@@ -203,6 +247,17 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1489",
+			"tactic": "impact",
+			"score": 20,
+			"color": "",
+			"comment": "UENP007\nUDSI001",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1564",
@@ -227,18 +282,42 @@
 		{
 			"techniqueID": "T1071",
 			"tactic": "command-and-control",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UCNC004",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1071.004",
+			"tactic": "command-and-control",
+			"score": 10,
+			"color": "",
+			"comment": "UCNC006",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1071.001",
+			"tactic": "command-and-control",
+			"score": 20,
+			"color": "",
+			"comment": "UCNC005\nUNET009",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1053",
 			"tactic": "execution",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UENP010",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -247,8 +326,9 @@
 		{
 			"techniqueID": "T1053",
 			"tactic": "persistence",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UENP010",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -257,8 +337,9 @@
 		{
 			"techniqueID": "T1053",
 			"tactic": "privilege-escalation",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UENP010",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -275,6 +356,28 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1091",
+			"tactic": "lateral-movement",
+			"score": 10,
+			"color": "",
+			"comment": "UENP009",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1091",
+			"tactic": "initial-access",
+			"score": 10,
+			"color": "",
+			"comment": "UENP009",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1562",
 			"tactic": "defense-evasion",
 			"color": "",
@@ -283,6 +386,17 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1562.001",
+			"tactic": "defense-evasion",
+			"score": 10,
+			"color": "",
+			"comment": "UENP004",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1195",
@@ -327,8 +441,9 @@
 		{
 			"techniqueID": "T1219",
 			"tactic": "command-and-control",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UCNC007",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -475,6 +590,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1021.002",
+			"tactic": "lateral-movement",
+			"score": 10,
+			"color": "",
+			"comment": "UNET008",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1596",
 			"tactic": "reconnaissance",
 			"color": "",
@@ -483,6 +609,28 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "defense-evasion",
+			"score": 10,
+			"color": "",
+			"comment": "UENP008",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1112",
+			"tactic": "persistence",
+			"score": 10,
+			"color": "",
+			"comment": "UENP008",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1491",
@@ -517,13 +665,23 @@
 		{
 			"techniqueID": "T1595",
 			"tactic": "reconnaissance",
-			"score": 10,
 			"color": "",
 			"comment": "",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1595.001",
+			"tactic": "reconnaissance",
+			"score": 50,
+			"color": "",
+			"comment": "UNET001\nUNET002\nUNET003\nUNET004\nUNET007",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1548",
@@ -606,10 +764,22 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1070.001",
+			"tactic": "defense-evasion",
+			"score": 10,
+			"color": "",
+			"comment": "UENP002",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1568",
 			"tactic": "command-and-control",
+			"score": 30,
 			"color": "",
-			"comment": "",
+			"comment": "UCNC001\nUCNC002\nUCNC003",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -726,6 +896,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"score": 40,
+			"color": "",
+			"comment": "UMAL001\nUMAL002\nUMAL003\nUMAL004",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1591",
 			"tactic": "reconnaissance",
 			"color": "",
@@ -836,6 +1017,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1565.001",
+			"tactic": "impact",
+			"score": 10,
+			"color": "",
+			"comment": "UDSI002",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1559",
 			"tactic": "execution",
 			"color": "",
@@ -936,6 +1128,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1571",
+			"tactic": "command-and-control",
+			"score": 10,
+			"color": "",
+			"comment": "UNET010",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1027",
 			"tactic": "defense-evasion",
 			"color": "",
@@ -1018,8 +1221,9 @@
 		{
 			"techniqueID": "T1499",
 			"tactic": "impact",
+			"score": 10,
 			"color": "",
-			"comment": "",
+			"comment": "UENP001",
 			"enabled": true,
 			"metadata": [],
 			"links": [],
@@ -1106,6 +1310,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1200",
+			"tactic": "initial-access",
+			"score": 10,
+			"color": "",
+			"comment": "UNET011",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1505",
 			"tactic": "persistence",
 			"color": "",
@@ -1136,6 +1351,17 @@
 			"showSubtechniques": true
 		},
 		{
+			"techniqueID": "T1498.001",
+			"tactic": "impact",
+			"score": 20,
+			"color": "",
+			"comment": "UNET005\nUNET012",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1134",
 			"tactic": "defense-evasion",
 			"color": "",
@@ -1164,6 +1390,17 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"score": 10,
+			"color": "",
+			"comment": "UNET006",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
 		},
 		{
 			"techniqueID": "T1518",
