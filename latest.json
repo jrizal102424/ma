@@ -1564,7 +1564,7 @@
 		{
 			"techniqueID": "T1078.002",
 			"tactic": "defense-evasion",
-			"score": 70,
+			"score": 60,
 			"color": "",
 			"comment": "UUBA001, UUBA003, UUBA004, UUBA005, UUBA007, UUBA010",
 			"enabled": true,
@@ -1575,7 +1575,7 @@
 		{
 			"techniqueID": "T1078.002",
 			"tactic": "persistence",
-			"score": 70,
+			"score": 60,
 			"color": "",
 			"comment": "UUBA001, UUBA003, UUBA004, UUBA005, UUBA007, UUBA010",
 			"enabled": true,
@@ -1586,7 +1586,7 @@
 		{
 			"techniqueID": "T1078.002",
 			"tactic": "privilege-escalation",
-			"score": 70,
+			"score": 60,
 			"color": "",
 			"comment": "UUBA001, UUBA003, UUBA004, UUBA005, UUBA007, UUBA010",
 			"enabled": true,
@@ -1597,7 +1597,7 @@
 		{
 			"techniqueID": "T1078.002",
 			"tactic": "initial-access",
-			"score": 70,
+			"score": 60,
 			"color": "",
 			"comment": "UUBA001, UUBA003, UUBA004, UUBA005, UUBA007, UUBA010",
 			"enabled": true,
